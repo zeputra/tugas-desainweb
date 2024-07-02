@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+
+    <title>Documen</title>
+    <link rel="stylesheet" href="reg.css">
+    <style>
+        .form{
+            background-color:rgb(36, 180, 134);(142, 255, 255);
+        }
+        input[type="text"],input[type="password"]{
+            border:none;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .form{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items:center;
+        }
+
+        form{
+            padding: 10px;
+        }
+        .user-input, .user-btn{
+            margin-bottom: 10px;
+        }
+
+        button{
+            border: none;
+            border-radius: 10px;
+            width: 100px;
+            padding: 5px;
+            background-color:darkslategrey(255, 183, 0);
+            color:rgb(116, 153, 153)
+        }
+        button:hover{
+            cursor: pointer;
+            background-color:darkslategray(162,188,7);
+            color:darkslategrey
+        }
+    </style>
+    <title>Menggunakan Form</title>
+</head>
+<body>
+    <nav>
+        <h1>Navbar</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="latihan4.html">Tabel</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    <main>
+    <div class="form">
+        <h1> REGISTRASI PESERTA</h1>
+        <form action="Register">
+            <div class="user-input">
+                <input type="text"name="USERNAME"id="" placeholder="Username">
+            </div>
+            <div class="user-input">
+                <input type="text"name="NAMA_LENGKAP"id="" placeholder="Nama_lengkap">
+            </div>
+            <div class="user-input">
+                <input type="password"name="userpassword"id="" placeholder="Userpassword">
+            </div>
+            <div class="user-input">
+                <input type="password"name="CUSERPASSWORD"id="" placeholder="Konfirmasi password">
+                </div>
+                <div class="user-btn">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Batal</button>
+                </div>
+        </form>
+    </div>
+    
+
+    </form>
+</body>
+</main>
+</html>
